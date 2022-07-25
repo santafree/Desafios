@@ -1,0 +1,70 @@
+<!--
+    1. Crear un archivo html
+2. Utilizando las etiquetas vistas en clase, crear su perfil, es decir:
+- Foto de perfil
+- Lista con edad, nombre, apellido, mail.
+- Un párrafo con una breve descripción de ustedes.
+-->
+<!-- 
+1. Tomar el archivo HTML del desafío anterior.
+2. El contenido del archivo colocarlo dentro de un DIV.
+3. Crear un form de contacto abajo de nuestra info.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Desafio1</title>
+    <style>
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mi perfil</h1>
+    <div>
+        <img src="../picture.jpg">
+        <ul>
+            <li>Edad: 24 años</li>
+            <li>Nombre: Santiago</li>
+            <li>Apellido: Quiroga</li>
+            <li>Mail: santiq32@gmail.com</li>
+        </ul>
+        <p>Hola soy Santiago Quiroga, periodista deportiva que quiere enfocar su vida a la programacion de desarrollo
+            web, Full Stack </p>
+
+    </div>
+    <div>
+        <h2>Contactenos</h2>
+        <form>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" required placeholder="Ingrese su apellido">
+            </div>
+            <div>
+                <label for="dni">DNI</label>
+                <input type="number" id="dni" required placeholder="Ingrese su documento">
+            </div>
+            <div>
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" required placeholder="Ingrese su correo ">
+            </div>
+            <div>
+                <label for="cel">Numero de telefono</label>
+                <input type="tel" id="cel" required placeholder="Ingrese su telefono">
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
